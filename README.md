@@ -5,6 +5,7 @@ A bug with dynamic variable lookup and templates. For some reason templates have
 
 You can see this in the Notify[undef] message given off from configuration.pp
 
+```
 Info: Applying configuration version '1381181340'
 Notice: /Stage[main]/Scopebug::Classes::Configuration/File[/tmp/tmp.conf]/content: 
 --- /tmp/tmp.conf	2013-10-07 21:24:40.967195525 +0000
@@ -21,3 +22,4 @@ Notice: /Stage[main]/Scopebug::Classes::Configuration/Notify[undef]/message: cur
 Notice: Class[Scopebug::Classes::Configuration]: Would have triggered 'refresh' from 2 events
 Notice: Stage[main]: Would have triggered 'refresh' from 1 events
 Notice: Finished catalog run in 14.58 seconds
+```
